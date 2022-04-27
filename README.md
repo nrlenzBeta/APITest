@@ -29,8 +29,9 @@ Web API with ASP.NET Core.
 
 - Run project first then open up Postman
 - https://localhost:yourPortNum
+- *Note* API is setup with InMemoryDatabase option. The data is lost when the application is shut down.
   
-### Body Example
+### Request/Response Body Example
 ```  
 {
   "id": 1,
